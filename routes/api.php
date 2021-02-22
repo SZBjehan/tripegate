@@ -18,6 +18,6 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get(uri:'categories',action:'App\CategoryControl@index');
+//Route::get(uri:'categories',action:'App\CategoryControl@index');
 
 Route::get(uri:'products',action:'App\ProductsControl@index');
