@@ -20,4 +20,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 //Route::get(uri:'categories',action:'App\CategoryControl@index');
 
-Route::get(uri:'products',action:'App\ProductsControl@index');
+//Route::get(uri:'products',action:'App\ProductsControl@index');
