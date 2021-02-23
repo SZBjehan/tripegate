@@ -28,7 +28,13 @@ class searchController extends Controller
         //->orwhere('products','=',"$query")->get();
         //dd($posts);
 
-        $emp= '<table style="width:100%">';
+        $emp= '<table style="width:100%" border="1">
+                <tr style="background-color:lightgray">
+                    <th> ID         </th>
+                    <th> User ID    </th>
+                    <th> Product ID </th>
+                </tr>
+        ';
         foreach($posts as $values){
             $emp.=<<<EOT
             <tr>
